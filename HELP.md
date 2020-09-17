@@ -105,7 +105,6 @@
 | var     | Marks text that is treated as a variable in a mathematical expression or computer program              |
 | wbr     | Represents where a line break should occur, if needed, for a long text string [HTML5]                  |
 
-
 ### HTML embedded elements
 
 | Element | Description                                                                       |
