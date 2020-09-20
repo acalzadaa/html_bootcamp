@@ -1,5 +1,7 @@
 # HELP
 
+&nbsp;
+
 ## HTML Helping tables
 
 | element  | description          | example            |
@@ -10,6 +12,7 @@
 | h1,h2,h3 | indicates headers    | `<h1><h2><h3>`     |
 | p        | inserts a paragraph  | `<p>some text</p>` |
 | strong   | indicates importance | `<strong>`         |
+&nbsp;
 
 ### Commonly used core HTML attributes
 
@@ -23,6 +26,7 @@
 | style="definition" | Defines the style or appearance of the element content                                                          |
 | tabindex="integer" | Specifies the tab order of the element (when the tab button is used to navigate the page)                       |
 | title="text"       | Assigns a title to the element content                                                                          |
+&nbsp;
 
 ### Header Metadata elements
 
@@ -35,6 +39,7 @@
 | script  | Provides programming code for programs to be run within the document                                                       |
 | style   | Defines the display styles used to render the document content                                                             |
 | title   | Stores the document’s title or name, usually displayed in the browser title bar or on a browser tab                        |
+&nbsp;
 
 ### Attributes of the meta element
 
@@ -44,6 +49,7 @@
 | content=”text”                                 | Provides the value associated with the http-equiv                                                   | or name attributes |
 | http-equiv=”content-type/defaultstyle/refresh” | Provides an HTTP header for the document’s content, default style, or refresh interval (in seconds) |
 | name=”text”                                    | Sets the name associated with the metadata                                                          |
+&nbsp;
 
 ### HTML sectioning elements
 
@@ -58,23 +64,14 @@
 | header                | Contains opening content that introduces an article or section HTML5                                                                   |
 | nav                   | Marks a list of hypertext or navigation links HTML5                                                                                    |
 | section               | Marks content that shares a common theme or purpose on the page HTML5                                                                  |
+&nbsp;
 
-| Element    | Description                                                                                                                                |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| blockquote | Contains content that is quoted from another source, often with a citation and often indented on the page                                  |
-| dd         | Contains the description or definition associated with a term from a description list                                                      |
-| div        | Contains a generic grouping of elements within the document                                                                                |
-| dl         | Marks a description list containing one or more dt elements with each followed by one or more dd elements                                  |
-| dt         | Contains a single term from a description list                                                                                             |
-| figcaption | Contains the caption associated with a figure HTML5                                                                                        |
-| figure     | Contains an illustration, photo, diagram, or similar object that is cross-referenced elsewhere in the document HTML5                       |
-| hr         | Marks a thematic break such as a scene change or a transition to a new topic (often displayed as a horizontal rule)                        |
-| li         | Contains a single item from an ordered or unordered list                                                                                   |
-| main       | Marks the main content of the document or application; only one main element should be used in the document HTML5                          |
-| ol         | Contains an ordered list of items                                                                                                          |
-| p          | Contains the text of a paragraph                                                                                                           |
-| pre        | Contains a block of preformatted text in which line breaks and extra spaces in the code are retained (often displayed in a monospace font) |
-| ul         | Contains an unordered list of items                                                                                                        |
+| Element | Description                                              |
+| ------- | -------------------------------------------------------- |
+| li      | Contains a single item from an ordered or unordered list |
+| ol      | Contains an ordered list of items                        |
+| ul      | Contains an unordered list of items                      |
+&nbsp;
 
 ### HTML text-level elements
 
@@ -104,6 +101,7 @@
 | u       | Indicates text that appears stylistically different from normal text (text usually appears underlined) |
 | var     | Marks text that is treated as a variable in a mathematical expression or computer program              |
 | wbr     | Represents where a line break should occur, if needed, for a long text string [HTML5]                  |
+&nbsp;
 
 ### HTML embedded elements
 
@@ -116,3 +114,26 @@
 | img     | Contains a graphic image retrieved from an image file                             |
 | object  | Contains general embedded content including application or interactive content    |
 | video   | Represents a video clip or video stream with captions [HTML5]                     |
+&nbsp;
+
+### HTML form types
+
+| Element | Description   | Example                                                                            |
+| ------- | ------------- | ---------------------------------------------------------------------------------- |
+| color   | color picker  | `<input type="color" name="project_color" id="project_color">`                     |
+| date    | date calendar | `<input type="date" name="start_date" id="start_date" value="2013-12-01">`         |
+| email   | email input   | `<input type="email" name="email" id="email">`                                     |
+| number  | number slider | `<input type="number" name="number_slider" min="0" max="1000" id="number_slider">` |
+| range   | range slider  | `<input type="range" min="0" man="10" name="priority" value="0" id="priority">`    |
+| text    | normal text   | `<input type="text" name="name" id="name">`                                        |
+| url     | url text      | `<input type="url" name="url" id="url">`                                           |
+&nbsp;
+
+### HTML form attibutes
+
+| Element                     | Description                                                   |
+| --------------------------- | ------------------------------------------------------------- |
+| autocomplete`[=true/false]` | instructs the browser to refrain to fill this field with data |
+| autofocus                   | focus a specific field when the page starts                   |
+| placeholder                 | adds a text overlay normally to explain the user the field    |
+| required | sets an input field as mandatory |
